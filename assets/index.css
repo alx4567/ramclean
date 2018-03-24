@@ -1,0 +1,167 @@
+/* ===========
+    ========================= Banner =========================
+=========== */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 0 50px;
+
+    background-image: url(../img/RamClean-index-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #fff;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+    /* border: 1px solid #fff; */ /* for debugging */
+}
+
+.banner-headline {
+    display: flex;
+    flex-direction: column;
+    font-size: 18em;
+    line-height: 1em;
+
+    /* border: 1px solid #fff; */ /* for debugging */
+}
+
+.banner-headline em {
+    font-size: .4em;
+    line-height: 1em;
+    margin-left: 25px;
+}
+
+.banner-headline .back {
+    margin-left: 365px;
+}
+
+.banner-headline hr {
+    background-color: #fff;
+    display: inline-block;
+    width: 50%;
+}
+
+.banner-text p {
+    margin-top: 2em;
+    font-size: 3.5em;
+    line-height: 1.5em;
+    width: 75%;
+}
+
+.banner-animation {
+    margin: 20px 0 -20px;
+}
+
+.banner-animation img {
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+
+/* ===========
+    ========================= Services =========================
+=========== */
+
+.index-services-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    border: 1px solid red;
+}
+
+.index-services-container h2 {
+    margin-top: 25px;
+    font-size: 8em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1em;
+    color: #25215f;;
+}
+
+.index-services-container h2 em {
+    font-size: .5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.service-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+    color: #fff;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 35px;
+    margin: 0 10px;
+
+    background-color: #00a0dd;
+}
+
+.icon {
+    margin: 0 auto 15px;
+    align-content: center;
+
+}
+
+.vacuum-man {
+    width: 375px; height: auto;
+    margin: -350px 0 25px -750px;
+
+    animation-duration: 1.5s;
+    animation-name: vacuum;
+}
+
+@keyframes vacuum {
+    from {
+      margin-right: 100%;
+    }
+  
+    to {
+      margin-right: 0%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1155px) {
+    .banner-animation, .vacuum-man  {
+        display: none;
+    }
+
+    .service-icons {
+        margin-bottom: 75px;
+    }
+}

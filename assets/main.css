@@ -1,0 +1,357 @@
+
+/* Base */
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "brother-1816",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 20px;
+    color: #25215f;
+
+    background-color: #f5f5f5;
+
+    width: 100%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 1em;
+    letter-spacing: .1em;
+
+    color: #00a0dd;
+    padding-top: 20px;
+
+    text-shadow: 2px 2px 0px rgba(245, 245, 245, 1);
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 58px;
+
+    color: #00a0dd;
+
+    margin: 40px 0 10px 0;
+}
+
+h3 {
+    color: #000;
+    font-size: 21px;
+    letter-spacing: .1em;
+}
+
+h5 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #00a0dd;
+    display:inline-block;
+    vertical-align: middle;
+    letter-spacing: .05em;
+}
+
+hr {
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* ------------------------------------- Menu Bar ------------------------------------- */
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:75px;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.index .menu {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.logo {
+    margin: 25px 30px 0 50px;
+    display: inline-block;
+
+    font-family: "brother-1816",sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.logo a {
+    color: #25215f;
+}
+
+.logo span {
+    color: #00a0dd;
+}
+
+
+
+
+/* ---------------------------- Navigation ---------------------------- */
+
+.topnav {
+    overflow: hidden;
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    right: 50px;
+  }
+  
+  .topnav a {
+    display: inline-block;
+    color: #00a0dd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    vertical-align: middle;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon, .topnav .quoteNav {
+    display: none;
+  }
+    
+  
+  @media screen and (max-width: 1050px) {
+    .topnav {
+        right:0;
+        display: inline-block;
+      }
+      
+      .topnav a:not(:first-child) {
+        display: none;
+      }
+
+      .topnav a.icon {
+        float: right;
+        display: inline;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+
+    .topnav.responsive {
+        height:100vh;
+        width: 100%;
+        margin:0;
+        padding:0;
+        background-color:rgba(255, 255, 255, 0.95);
+        color:#00a0dd;
+    }
+  
+    .topnav.responsive .icon {
+        text-align: right;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+      font-weight: 400;
+      color:#00a0dd;
+      margin-top: 10px;
+      border: 1px solid #00a0dd;
+    }
+
+    .topnav.responsive a:hover, .topnav.responsive a:active {
+        background-color: #00a0dd;
+        color: #fff;
+    }
+
+    .topnav.responsive .icon {
+        border: none;
+    }
+
+    .topnav.responsive .icon:hover, .topnav.responsive .icon:active {
+        background-color: #fff;
+        color: #00a0dd;
+    }
+
+
+
+    .topnav.responsive .noMobile {
+        display: none;
+    }
+  }
+
+/* ---------- REQUEST FORM ---------- */
+
+
+/*
+.single {
+   
+    */
+form p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+input[type=text], input[type=email], input[type=phone], textarea {
+    color:    #000;
+    font-family: "brother-1816",sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #b1b1b1;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #b1b1b1;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #b1b1b1;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #b1b1b1;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:    #b1b1b1;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color:    #b1b1b1;
+    font-style: italic;
+    letter-spacing: .1em;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    width: 204px;
+    height:54px;
+    padding: 16px;
+
+    display: inline-block;
+
+    background-color: #00a0dd;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    font-family: "brother-1816",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+    z-index: 5;
+}
+
+@media screen and (max-width: 1050px) {
+    .dropbtn {
+        display: none;
+    }
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+    position: absolute;
+    top: 75px;
+    right:0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 75px;
+    right: 0;
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    background-color: rgba(0, 160, 221, .9);
+    color: #fff;
+}
+
+.formContainer {
+    height: 90vh;
+    overflow: scroll;
+    position: relative;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#request-form {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------- CONTENT ------------------------------------- */
+
+.content {
+    margin: 75px auto 0;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------- FOOTER ------------------------------------- */
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+.index footer {
+    display: none;
+}
+
+
+
+
+
+
