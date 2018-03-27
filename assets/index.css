@@ -255,6 +255,8 @@
     margin: 0 auto;
 }
 
+
+
 .w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}
 
 .w3-display-container{position:relative}
@@ -268,7 +270,18 @@
 
 
 
+.logo-slides {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
 
+.shoutout-container .partnerLogo {
+    flex: 1;
+    flex-direction: row;
+    display: inline-block;
+}
 
 
 

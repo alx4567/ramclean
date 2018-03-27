@@ -90,9 +90,32 @@
                     </div>
             </div> <!-- reviews-wrapper -->
 
-            <div class="client-logo-container">
-                <h4>PROUDLY SERVING</h4>
-            </div> <!-- client-logo-container -->
+            <div class="reviews-wrapper">
+                <h4 class="w3-center">PROUDLY SERVING</h4>
+
+                    <div class="w3-content w3-display-container">
+                        <div class="logo-slides"> 
+                            <img src="" alt="logo" class="partnerLogo">
+                            <img src="" alt="logo" class="partnerLogo">
+                            <img src="" alt="logo" class="partnerLogo">
+                        </div>
+                        <div class="logo-slides"> 
+                            <img src="" alt="logo3" class="partnerLogo">
+                            <img src="" alt="logo" class="partnerLogo">
+                            <img src="" alt="logo" class="partnerLogo">
+                        </div>
+                        <div class="logo-slides"> 
+                            <img src="" alt="logo4" class="partnerLogo">
+                            <img src="" alt="logo" class="partnerLogo">
+                            <img src="" alt="logo" class="partnerLogo">
+                        </div>
+
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+                    </div>
+            </div> <!-- reviews-wrapper -->
+
+            
 
         </div> <!-- shoutout-text-wrapper -->
 

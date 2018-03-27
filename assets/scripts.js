@@ -73,3 +73,23 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+// review slide show
+var logoIndex = 1;
+showDivs2(logoIndex);
+
+function plusDivs2(n) {
+  showDivs2(logoIndex += n);
+}
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("logo-slides");
+  if (n > x.length) {logoIndex = 1}    
+  if (n < 1) {logoIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[logoIndex-1].style.display = "inline-block";  
+}
+
