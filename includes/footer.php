@@ -10,7 +10,7 @@
 
 
 
-<!-- Close -->
+<!-- Close 
 <script>
 $("button").on("click", function() {
     var el = $(this);
@@ -24,6 +24,7 @@ $("button").on("click", function() {
     }
   });
   </script>
+  -->
 
 
 <script src="/assets/scripts.js"></script>
