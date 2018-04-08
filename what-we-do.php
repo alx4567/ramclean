@@ -23,14 +23,15 @@
         <div class="res-info">
             <div class="res-info-top">
                 <div class="trained-prof-text">
-                        <h2>TRAINED PROFESSIONALS</h2>
-                        <p>Our trained teams of professional cleaning specialists will tackle dirt, dust and grime and leave your
-                            home shining. Our products and extensive industry experience give us a leg up when it comes to leaving
-                            your house cleaner, and healthier, than ever before. Our trained teams of professional cleaning
-                            specialists will tackle dirt, dust and grime and leave your home shining. Our products and extensive
-                            industry experience give us a leg up when it comes to leaving your house cleaner, and healthier,
-                            than ever before.</p>
-                    </div> <!-- trained-prof-text -->
+
+                            <h2>TRAINED PROFESSIONALS</h2>
+                            <p>Our trained teams of professional cleaning specialists will tackle dirt, dust and grime and leave your
+                                home shining. Our products and extensive industry experience give us a leg up when it comes to leaving
+                                your house cleaner, and healthier, than ever before. Our trained teams of professional cleaning
+                                specialists will tackle dirt, dust and grime and leave your home shining. Our products and extensive
+                                industry experience give us a leg up when it comes to leaving your house cleaner, and healthier,
+                                than ever before.</p>
+
                 </div> <!-- trained-prof-text -->
 
                 <div class="trained-prof-img">
@@ -39,23 +40,28 @@
             </div> <!-- res-info-top -->
 
             <div class="res-info-btm">
-                <div class="the-best">
-                    <h5>ONLY THE BEST</h5>
-                    <p>Our highly tuned process ensures the cleaning of virtually every surface, in every room of your home, on every 
-                        visit. The process removes more contaminants and allergens than conventional techniques.</p>
-                </div> <!-- the-best -->
-                <div class="res-window-cleaner">
-                    <img src="img/cleaning-screen.png" alt="Woman cleaning window" />
-                </div> <!-- the-best -->
-                <div class="clockwork">
-                    <h5>LIKE CLOCKWORK</h5>
-                    <p>We offer daily, weekly, bi-weekly, monthly, seasonal and one-time project cleans for your home. Give us a call 
-                        and request an estimate to begin service.</p>
-                </div> <!-- clockwork -->
+                <div class="wrapper">
+                    <div class="the-best">
+
+                            <h2>ONLY THE BEST</h2>
+                            <p>Our highly tuned process ensures the cleaning of virtually every surface, 
+                                in every room of your home, on every visit. The process removes more 
+                                contaminants and allergens than conventional techniques.</p>
+
+                    </div> <!-- the-best -->
+                    <div class="clockwork">
+                            <h2>LIKE CLOCKWORK</h2>
+                            <p>We offer daily, weekly, bi-weekly, monthly, seasonal and one-time project 
+                            cleans for your home. Give us a call and request an estimate to begin service.</p>
+
+                    </div> <!-- clockwork -->
+                </div> <!-- wrapper -->
             </div> <!-- res-info-btm -->
         </div> <!-- res-info -->
 
     </section> <!-- res-cleaning-container -->
+
+
 
 
    <!-- ====================== Commercial Section ====================== -->
@@ -79,43 +85,59 @@
                 <div class="comm-info-services">
 
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Vacuuming</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Vacuuming</small>
+                        </div>
                     </div> <!-- service -->
 
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Dusting</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Dusting</small>
+                        </div>
                     </div> <!-- service -->
                     
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Trash Removal</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Trash Removal</small>
+                        </div>
                     </div> <!-- service -->
                     
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Restroom Restocking</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Restroom Restocking</small>
+                        </div>
                     </div> <!-- service -->
                     
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Restroom Cleaning</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Restroom Cleaning</small>
+                        </div>
                     </div> <!-- service -->
                     
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Kitchen Cleaning</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Kitchen Cleaning</small>
+                        </div>
                     </div> <!-- service -->
 
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Mopping</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Mopping</small>
+                        </div>
                     </div> <!-- service -->
 
                     <div class="service">
-                        <div class="service-icon"><img src="#" alt="?" /></div>
-                        <small>Windows</small>
+                        <div class="service-wrapper">
+                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <small>Windows</small>
+                        </div>
                     </div> <!-- service -->
 
                 </div> <!-- comm-info-services -->
@@ -130,7 +152,7 @@
     <section class="con-cleaning-container">
 
         <div class="con-banner">
-            <div class="con-banner-img-wrapper"><img src="#" class="con-banner-img" alt="Construction worker holding hardhat faceing excavator" /></div>
+            <div class="con-banner-img-wrapper"></div>
             <div class="blue-box"></div>
             <div class="banner-text"><h1>CONSTRUCTION<br>CLEANUP</h1></div>
         </div> <!-- con-banner -->

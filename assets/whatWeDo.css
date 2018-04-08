@@ -5,6 +5,10 @@
     flex-direction: column;
 }
 
+.comm-cleaning-container, .con-cleaning-container {
+    margin-top: 100px;
+}
+
 .res-cleaning-container {
     margin-top: 100px;
 }
@@ -36,7 +40,11 @@ h1 {
     color: #fff;
 }
 
-.banner-text, .res-info {
+.banner-text, 
+.res-info-top, 
+.res-info-btm .wrapper,
+.comm-info,
+.con-info {
     width: 90%;
     max-width: 1500px;
     margin: 0 auto;
@@ -47,3 +55,137 @@ h1 {
     z-index: 5;
 }
 
+.res-info-top {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+}
+
+.trained-prof-text,
+.the-best,
+.clockwork {
+    width: 48%;
+}
+
+.res-info h2 {
+    margin: 0;
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: .01em;
+    color: #25215f;
+}
+
+.res-info p,
+.con-info p {
+    font-size: 3em;
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+
+.trained-prof-img {
+    flex: 1;
+    text-align: right;
+}
+
+.trained-prof-img img {
+    width: 80%;
+}
+
+.res-info-btm {
+    margin-top: 15em;
+}
+
+.res-info-btm .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.comm-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.comm-info-text {
+    width: 80%;
+    margin: 140px auto 0;
+}
+
+.comm-info-text h6 {
+    font-size: 5em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #25215f;
+}
+
+.comm-info-text-btm {
+    display: flex;
+    margin-top: 50px;
+}
+
+.comm-info-img {
+    flex: 1;
+    text-align: center;
+}
+
+.comm-info-img img {
+    max-width: 300px;
+}
+
+.comm-info-services {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.service {
+    width: 23%; min-width: 140px;
+    height: 200px;
+    margin: 20px 10px 0 0;
+}
+
+.service-wrapper {
+    width: 140px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a6a6a6;
+    text-align: center;
+}
+
+.service-wrapper small {
+    font-size: 2.5em;
+    line-height: 1em;
+    margin-top: 2em;
+    color: #fff;
+}
+
+
+
+.con-banner .blue-box {
+    width: 53%; min-width: 870px;
+}
+
+.con-info {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.con-info-text,
+.con-info-img {
+    flex: 1;
+}
+
+.con-info-img {
+    display: flex;
+    align-items: flex-end;
+}
+
+.con-info-img img {
+    width: 90%;
+    margin: 0 auto;
+    vertical-align: bottom;
+}
