@@ -7,113 +7,154 @@
 ?>
 
 
+<!-- ================ 
+    ================================ PAGE CONTENT STARTS ================================ 
+================ -->
 
-    <div id="residentialServices">
+   <!-- ====================== Residential Section ====================== -->
+   <section class="res-cleaning-container">
 
-        <main class="parallaxContainer">
-            <section class="parallaxDiv">
-                <h1 class="superText">RESIDENTIAL<br>SERVICES</h1>
-            </section>
-        </main>
+        <div class="res-banner">
+            <!-- <div class="res-banner-img-wrapper"><img src="#" class="res-banner-img" alt="Very clean, modern living room" /></div> -->
+            <div class="blue-box"></div>
+            <div class="banner-text"><h1>RESIDENTIAL<br>SERVICES</h1></div>
+        </div> <!-- res-banner -->
 
-        <div class="twoThirdsImg" alt="Very Clean Living Room"></div>
-        <div class="resBlueRec"></div>
+        <div class="res-info">
+            <div class="res-info-top">
+                <div class="trained-prof-text">
+                        <h2>TRAINED PROFESSIONALS</h2>
+                        <p>Our trained teams of professional cleaning specialists will tackle dirt, dust and grime and leave your
+                            home shining. Our products and extensive industry experience give us a leg up when it comes to leaving
+                            your house cleaner, and healthier, than ever before. Our trained teams of professional cleaning
+                            specialists will tackle dirt, dust and grime and leave your home shining. Our products and extensive
+                            industry experience give us a leg up when it comes to leaving your house cleaner, and healthier,
+                            than ever before.</p>
+                    </div> <!-- trained-prof-text -->
+                </div> <!-- trained-prof-text -->
 
-        <div class="wrapper2">
+                <div class="trained-prof-img">
+                    <img src="img/residential-cleaning-image.jpg" alt="Sparkling clean and stylish kitchen" />
+                </div> <!-- trained-prof-img -->
+            </div> <!-- res-info-top -->
 
-            <h1 class="superText">RESIDENTIAL<br>SERVICES</h1>
-            
-            <div class="">
-             <div id="trainedProfessionals" class="thirdPage">
-                <h3>TRAINED PROFESSIONALS</h3>
-                
-                <p class="thirdsText">
-                    Our trained team of professional cleaning specialists will tackle dirt, 
-                    dust, and grime while leaving your home sparkling. Our products and 
-                    extensive industry experience give us a leg up when it comes to leaving 
-                    your house cleaner (and healthier) than every before. 
-                </p>
-            </div> <!-- trainedProfessionals -->
+            <div class="res-info-btm">
+                <div class="the-best">
+                    <h5>ONLY THE BEST</h5>
+                    <p>Our highly tuned process ensures the cleaning of virtually every surface, in every room of your home, on every 
+                        visit. The process removes more contaminants and allergens than conventional techniques.</p>
+                </div> <!-- the-best -->
+                <div class="res-window-cleaner">
+                    <img src="img/cleaning-screen.png" alt="Woman cleaning window" />
+                </div> <!-- the-best -->
+                <div class="clockwork">
+                    <h5>LIKE CLOCKWORK</h5>
+                    <p>We offer daily, weekly, bi-weekly, monthly, seasonal and one-time project cleans for your home. Give us a call 
+                        and request an estimate to begin service.</p>
+                </div> <!-- clockwork -->
+            </div> <!-- res-info-btm -->
+        </div> <!-- res-info -->
 
-            <div id="theBest" class="thirdPage midSection">
-                <h3>ONLY THE BEST</h3>
-                <p class="thirdsText">
-                    Our highly tuned process ensures the cleaning of virtually every surface, 
-                    in every room of your home, on every visit. The process removes more 
-                    contaminants and allergens than conventional techniques.
-                </p>
-            </div> <!-- theBest -->
-
-            <div id="clockwork" class="thirdPage rightSection">
-                <h3>LIKE CLOCKWORK</h3>
-                <p class="thirdsText">
-                    We offer daily, weekly, bi-weekly, seasonal, and one-time project cleans 
-                    for your home. Give us a call or click "Request A Quote" above to get your 
-                    free estimate today.
-                </p>
-            </div> <!-- clockwork -->
-
-        </div> <!-- wrapper -->
-
-    </div> <!-- residentialServices" -->
-
-    <div class="narrowDivider wrapper2">
-        <div class="dividerBtn">
-            <a href="why-choose-us.php"><button class="aboutBtn">WHY CHOOSE US</button></a>
-        </div> <!--  dividerBtn -->
-
-        <div class="slogan">
-            <img src="img/RamClean-Ram.png" alt="RamClean Cleaning Services logo">
-            <h5>C-U's Premier Cleaning Professionals</h5>
-        </div> <!-- slogan -->
-
-    </div> <!-- narrowDivider -->
+    </section> <!-- res-cleaning-container -->
 
 
-    <div id="commercialServices">
+   <!-- ====================== Commercial Section ====================== -->
+    <section class="comm-cleaning-container">
 
-        <div class="twoThirdsImg" alt="Very Clean Living Room"></div>
-        <div class="resBlueRec"></div>
+        <div class="comm-banner">
+            <div class="comm-banner-img-wrapper"><img src="#" class="comm-banner-img" alt="Very clean office" /></div>
+            <div class="blue-box"></div>
+            <div class="banner-text"><h1>COMMERCIAL<br>SERVICES</h1></div>
+        </div> <!-- comm-banner -->
 
-        <div class="wrapper2">
+        <div class="comm-info">
+            <div class="comm-info-text">
+                <h6>RamClean delivers expert, full-service janitorial solutions throughout the greater Champaign-Urbana area. RamClean 
+                    customizes all services to the exact specifications of every client, every time.</h6>
+            </div> <!-- comm-info-text -->
 
-            <h1 class="superText">COMMERCIAL<br>SERVICES</h1>
-            
+            <div class="comm-info-text-btm">
+                <div class="comm-info-img"><img src="img/waxing-floor.png" alt="Janitor waxing floor with zamboni" /> </div>
 
-            <div id="trainedProfessionals" class="thirdPage">
-                <h3>HIGHER STANDARDS</h3>
-                
-                <p class="thirdsText">
-                    RamClean relentlessly pursue the highest standards in cleaning with customized 
-                    programs designed to meet your needs, whether for daily, nightly or one-time 
-                    office cleaning services.
-                </p>
-            </div> <!-- trainedProfessionals -->
+                <div class="comm-info-services">
 
-            <div id="theBest" class="thirdPage midSection">
-                <h3>ONE STOP SHOP</h3>
-                <p class="thirdsText">
-                    RamClean, LLC, delivers expert, full-service janitorial solutions throughout
-                    the greater Champaign-Urbana area. RamClean customizes all services to the
-                    exact specifications of every client, every time.
-                </p>
-            </div> <!-- theBest -->
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Vacuuming</small>
+                    </div> <!-- service -->
 
-            <div id="clockwork" class="thirdPage rightSection">
-                <h3>UNMATCHED VALUE</h3>
-                <p class="thirdsText">
-                    RamClean knows price and value are critical, especially in these challenging 
-                    economic times. That’s why RamClean works diligently to be the best dollar-for-dollar
-                    value in commercial cleaning services in the Champaign-Urbana region.
-                </p>
-            </div> <!-- clockwork -->
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Dusting</small>
+                    </div> <!-- service -->
+                    
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Trash Removal</small>
+                    </div> <!-- service -->
+                    
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Restroom Restocking</small>
+                    </div> <!-- service -->
+                    
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Restroom Cleaning</small>
+                    </div> <!-- service -->
+                    
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Kitchen Cleaning</small>
+                    </div> <!-- service -->
 
-        </div> <!-- wrapper -->
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Mopping</small>
+                    </div> <!-- service -->
 
-    </div> <!-- commercialServices" -->
+                    <div class="service">
+                        <div class="service-icon"><img src="#" alt="?" /></div>
+                        <small>Windows</small>
+                    </div> <!-- service -->
 
+                </div> <!-- comm-info-services -->
+            </div> <!-- comm-info-text-btm -->
+        </div> <!-- comm-info -->
+
+    </section> <!-- comm-cleaning-container -->
+
+
+   <!-- ====================== Construction Section ====================== -->
+
+    <section class="con-cleaning-container">
+
+        <div class="con-banner">
+            <div class="con-banner-img-wrapper"><img src="#" class="con-banner-img" alt="Construction worker holding hardhat faceing excavator" /></div>
+            <div class="blue-box"></div>
+            <div class="banner-text"><h1>CONSTRUCTION<br>CLEANUP</h1></div>
+        </div> <!-- con-banner -->
+
+        <div class="con-info">
+            <div class="con-info-text">
+                <p>Building contractors are not professional cleaners and often leave dangerous and unhealthy messes of debris, dirt and trash
+                    both inside and outside a job site.
+                    <br><br>
+                    RamClean specializes in construction cleanup and can get your work space sparkling, safe and ready for business.
+                    <br><br>
+                    Our process includes cleaning and shining all furniture, sinks, appliances, toilets, cabinets and countertops, plus extensive 
+                    dust removal, washing and scraping windows and doors, and cleaning window tracks, baseboards and more. Refinishing floors is 
+                    also among the many post-construction cleanup services available.</p>
+            </div> <!-- con-info-text -->
+            <div class="con-info-img"><img src="img/bulldozer.png" alt="bulldozer" /></div>
+        </div> <!-- con-info -->
+
+    </section> <!-- con-cleaning-container -->
  
 
+
+
+<!-- ================ PAGE CONTENT ENDS ================ -->
 
 
 <?php

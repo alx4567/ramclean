@@ -31,14 +31,12 @@ a {
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 13em;
     line-height: 1em;
     letter-spacing: .1em;
 
     color: #00a0dd;
     padding-top: 20px;
-
-    text-shadow: 2px 2px 0px rgba(245, 245, 245, 1);
 }
 
 h2 {

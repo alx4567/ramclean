@@ -1,126 +1,49 @@
-#residentialServices, #commercialServices {
-    margin-top: 110px;
+.res-cleaning-container,
+.comm-cleaning-container,
+.con-cleaning-container {
+    display: flex;
+    flex-direction: column;
 }
 
-.wrapper2 {
-    width: 90%;
-    max-width: 1600px;
-    margin: -415px auto 0;
+.res-cleaning-container {
+    margin-top: 100px;
 }
 
-.twoThirdsImg {
-    width: 66%;
-    height: 35em;
-    margin-left: auto;
-    margin-right: 0;
-
-    background-image: url(../img/residentialCleaning.jpg);
-    background-repeat: no-repeat;
+.res-banner, 
+.comm-banner, 
+.con-banner {
+    width: 100%; height: 400px;
+    background-image: url("../img/residential-banner.jpg");
     background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
 }
 
-.resBlueRec {
-    width: 33%;
-    height: 40px;
-    margin: -30px 0 0 auto;
-
-    position: relative;
-    overflow: hidden;
-}
-
-.resBlueRec:after {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 160, 221, .8); 
-    position: absolute;
-    content: "";
-    transform: skew(-30deg);
-    transform-origin: bottom right;
-}
-
-.thirdPage {
-    display: inline-block;
-    flex: 1;
-    margin: 195px 4.5% 0 0;
-    vertical-align: top;
-}
-
-.rightSection {
-    margin-right: 0;
-}
-
-.thirdsText {
-    font-size: 18px;
-    line-height: 1.5em;
-    color: #818181;
-    margin-top: .5em;
-}
-
-.narrowDivider {
-    margin: 75px auto;
-}
-
-.dividerBtn {
-    display: inline-block;
-    width: 33%;
-    vertical-align: middle;
-}
-
-.narrowDivider button {
-    display: inline-block;
-    background-color: #f5f5f5;
-    border: 2px solid #999;
-    cursor: pointer;
-
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-
-    font-family: "brother-1816",sans-serif;
-    font-size: 15px;
-    letter-spacing: .05em;
-    padding: 8px 45px;
-    color: #999;
-
-}
-
-.narrowDivider button:hover {
-    background-color: #999;
-    color: #f5f5f5;
-}
-
-.slogan {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px 0;
-}
-
-.narrowDivider img {
-    display: inline-block;
-    width: 100px;
-    vertical-align: middle;
-    margin-right: 15px;
-}
-
-#commercialServices .wrapper2 {
-margin-top: -405px;
-}
-
-#commercialServices .twoThirdsImg {
-        width: 100%;
-        height: 500px;
-        margin: 0 auto;
+.blue-box {
+    width: 48%; height: 175px;
+    min-width: 720px;
+    margin: 300px 0 0 -50px;
+    background-color: rgba(0, 160, 221, 0.9);
     
-        background-image: url(../img/residentialCleaning.jpg);
-        background-size: cover;
+    position: relative;
+    z-index: -1;
+    transform-origin: left bottom;
+    transform: skewX(-15deg);
 }
 
-#commercialServices h1 {
-    text-align: center;
+h1 {
+    color: #fff;
 }
 
-#commercialServices .resBlueRec {
-    width: 75%;
+.banner-text, .res-info {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
 }
+
+.banner-text {
+    margin-top: -187px;
+    z-index: 5;
+}
+
