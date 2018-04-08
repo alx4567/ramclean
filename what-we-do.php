@@ -68,7 +68,7 @@
     <section class="comm-cleaning-container">
 
         <div class="comm-banner">
-            <div class="comm-banner-img-wrapper"><img src="#" class="comm-banner-img" alt="Very clean office" /></div>
+            <div class="comm-banner-img-wrapper"></div>
             <div class="blue-box"></div>
             <div class="banner-text"><h1>COMMERCIAL<br>SERVICES</h1></div>
         </div> <!-- comm-banner -->
@@ -86,56 +86,56 @@
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Vacuuming</small>
                         </div>
                     </div> <!-- service -->
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Dusting</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Trash Removal</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Restroom Restocking</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Restroom Cleaning</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Kitchen Cleaning</small>
                         </div>
                     </div> <!-- service -->
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Mopping</small>
                         </div>
                     </div> <!-- service -->
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="#" alt="?" /></div>
+                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
                             <small>Windows</small>
                         </div>
                     </div> <!-- service -->

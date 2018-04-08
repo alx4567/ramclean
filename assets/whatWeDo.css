@@ -127,10 +127,13 @@ h1 {
 .comm-info-img {
     flex: 1;
     text-align: center;
+    display: flex;
+    align-items: flex-end;
 }
 
 .comm-info-img img {
     max-width: 300px;
+    margin: 0 auto;
 }
 
 .comm-info-services {
@@ -143,23 +146,27 @@ h1 {
 
 .service {
     width: 23%; min-width: 140px;
-    height: 200px;
-    margin: 20px 10px 0 0;
+    margin: 0 10px 0 0;
 }
 
 .service-wrapper {
-    width: 140px;
-    margin: 0 auto;
+    width: 140px; height: 175px;
+    margin: 20px auto 0;
     padding: 20px;
     background-color: #a6a6a6;
     text-align: center;
 }
 
+.service-icon {
+    width: 75px; height: 75px;
+    margin: 0 auto 20px;
+}
+
 .service-wrapper small {
     font-size: 2.5em;
     line-height: 1em;
-    margin-top: 2em;
     color: #fff;
+    font-weight: 400;
 }
 
 
@@ -188,4 +195,107 @@ h1 {
     width: 90%;
     margin: 0 auto;
     vertical-align: bottom;
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .content {
+        margin-top: 0;
+    }
+
+    .res-cleaning-container {
+        margin-top: 0;
+    }
+
+    .res-info {
+        width: 90%;
+        margin: 90px auto 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+    .res-info-top, .res-info-btm {
+        margin-top: 40px;
+        flex: 1;
+        
+    }
+
+    .trained-prof-text,
+    .the-best,
+    .clockwork {
+        width: 95%;
+    }
+
+    .clockwork {
+        margin-top: 40px;
+    }
+
+    .trained-prof-img {
+        display: none;
+    } 
+
+    .res-info-btm .wrapper {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+    }
+
+    .comm-info-text {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .res-info {
+        flex-direction: column;
+    }
+
+    .banner-text h1 {
+        font-size: 10em;
+        letter-spacing: .01em;
+        text-align: center;
+    }
+
+    .blue-box,
+    .con-banner .blue-box  {
+        width: 100%; height: 150px;
+        min-width: 0;
+        margin: 323px 0 0 0;
+        background-color: rgba(0, 160, 221, 0.9);
+        
+        position: relative;
+        z-index: -1;
+        transform-origin: left bottom;
+        transform: skewX(0deg);
+    }
+
+    .banner-text {
+        margin-top: -155px;
+    }
+
+    .comm-info-img,
+    .con-info-img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    .banner-text h1 {
+        font-size: 7em;
+        letter-spacing: .01em;
+        text-align: center;
+    }
+
+    .blue-box,
+    .con-banner .blue-box {
+        height: 100px;
+    }
+
+    .banner-text {
+        margin-top: -113px;
+    }
 }
