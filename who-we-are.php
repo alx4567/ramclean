@@ -1,9 +1,12 @@
 <?php 
     
     define("TITLE", "Who We Are | RamClean Cleaning Services");
+    $page = "whoWeAre";
     include('includes/header.php');
 
 ?>
+
+<section class="about-container">
 
     <section class="about-banner">
         <div class="about-banner-img-wrapper"></div>
@@ -13,11 +16,12 @@
 
     <section class="about-info-container">
         <div class="contact-container">
-            <img src="" alt="Charlie Ramshaw, President" />
+            <img src="img/charlieRamshaw.jpg" alt="Charlie Ramshaw, President" />
             <div class="contact-text">
                 <h6>CHARLIE RAMSHAW</h6>
                 <p>President</p>
                 <a href="#">(217) 202-5235</a>
+                <br>
                 <a href="#">charlie@ramclean.com</a>
             </div> <!-- contact-text -->
         </div> <!-- contact-container -->
@@ -46,6 +50,8 @@
     <section class="google-map-container">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.1804021280623!2d-88.25315804815637!3d40.115982979300284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd0b41d7b91f5%3A0x76ef42e24d189746!2sRamClean%2C+LLC!5e0!3m2!1sen!2sus!4v1523320943755" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section> <!-- google-map-container -->
+
+</section> <!-- about-container -->
 
 
 

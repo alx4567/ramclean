@@ -17,11 +17,6 @@
                             name    => "who-we-are"
                         ),
                         array(
-                            slug    => "get-in-touch.php",
-                            title   => "GET IN TOUCH",
-                            name    => "get-in-touch"
-                        ),
-                        array(
                             slug    => "service-request.php",
                             title   => "REQUEST QUOTE",
                             name    => "quoteNav"
