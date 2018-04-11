@@ -44,7 +44,9 @@
                         Construction<br>Cleanup
                     </div> <!-- icon-box -->
                 </div> <!-- service-icons -->
+            <!--
                 <img class="vacuum-man" src="img/cartoon-vacuuming.png" alt="Cartoon Man Vacuuming Floor">
+            -->
             </div> <!-- service-detail-container -->
         </div>
     </section> <!-- index-services-container -->
@@ -122,9 +124,11 @@
                 
 
             </div> <!-- shoutout-text-wrapper -->
+            <!--
             <div class="shoutoutImg">
                 <img src="img/windowCleaner.png" alt="Window Cleaner Cartoon">
             </div>
+            -->
         </div>
     </section> <!-- shoutout-container -->
     

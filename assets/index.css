@@ -118,6 +118,10 @@
     line-height: 1em;
 }
 
+.service-detail-container {
+    margin-bottom: 72px;
+}
+
 .service-icons {
     display: flex;
     justify-content: center;
@@ -408,7 +412,7 @@
 
 @media screen and (max-width: 700px) {
     .banner-container {
-        margin-top: 50px;
+        margin-top: 0;
     }
     
     .banner-headline {

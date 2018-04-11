@@ -1,0 +1,253 @@
+.why-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.why-banner-container {
+    width: 100%; height: 400px;
+    background-image: url("../img/chooseUs-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+}
+
+.blue-box {
+    width: 48%; height: 175px;
+    min-width: 720px;
+    margin: 300px 0 0 -50px;
+    background-color: rgba(0, 160, 221, 0.9);
+    
+    position: relative;
+    z-index: -1;
+    transform-origin: left bottom;
+    transform: skewX(-15deg);
+}
+
+h1 {
+    color: #fff;
+}
+
+.banner-text,
+.excellence-container,
+.service-text,
+.staff-container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    margin-top: -187px;
+    z-index: 5;
+}
+
+.excellence-container {
+    display: flex;
+    margin-top: 125px;
+}
+
+.excellence-title {
+    flex:1;
+}
+
+.excellence-title h3 {
+    font-size: 6em;
+    line-height: 1em;
+    letter-spacing: .01em;
+}
+
+.excellence-text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.text-top-container,
+.text-bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-bottom-container {
+    margin-top: 6em;
+}
+
+.excellence-text-container h4 {
+    text-align: left;
+    font-size: 4em;
+}
+
+.excellence-text-container p {
+    margin-top: .5em;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+.client-container, .green-container,
+.account-container, .value-container {
+    width: 48%;
+}
+
+.service-container {
+    background-color: #00a0dd;
+    padding: 72px;
+    margin-top: 94px;
+}
+
+.service-text {
+    font-size: 4em;
+    line-height: 1.5em;
+    font-style:  italic;
+    text-align: center;
+    color: #fff;
+}
+
+.staff-container {
+    display: flex;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    font-size: 3em;
+    line-height: 1.5em;
+    justify-content: space-between;
+}
+
+.staff-text, .staff-img-container {
+    flex: 1;
+}
+
+.staff-img-container {
+    text-align: right;
+}
+
+.staff-img-container img {
+    width: 85%;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .content, .why-container {
+        margin-top: 0;
+    }
+
+    .text-bottom-container,
+    .text-top-container {
+        flex-direction: column;
+       
+    }
+
+    .client-container, .green-container,
+    .account-container, .value-container {
+        width: 95%;
+        margin-left: auto;
+    }
+
+    .client-container, .account-container {
+        margin-bottom: 6em;
+    }
+}
+
+
+
+
+@media screen and (max-width: 870px) {
+
+    .banner-text h1 {
+        font-size: 10em;
+        letter-spacing: .01em;
+        text-align: center;
+    }
+
+    .blue-box {
+        width: 100%; height: 150px;
+        min-width: 0;
+        margin: 323px 0 0 0;
+        background-color: rgba(0, 160, 221, 0.9);
+        
+        position: relative;
+        z-index: -1;
+        transform-origin: left bottom;
+        transform: skewX(0deg);
+    }
+
+    .banner-text {
+        margin-top: -155px;
+    }
+
+    .excellence-title {
+        display: none;
+    }
+
+    .text-bottom-container,
+    .text-top-container {
+        flex-direction: row;
+       justify-content: space-between
+    }
+
+    .client-container, .green-container,
+    .account-container, .value-container {
+        width: 48%;
+        margin-left: 0;
+    }
+}
+
+    
+@media screen and (max-width: 700px) {
+    .staff-container {
+        flex-direction: column-reverse;
+    }
+
+    .staff-img-container {
+        text-align: center;
+    }
+
+    .staff-img-container img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .service-container {
+        margin-top: 14px;
+    }
+
+    .staff-container {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .excellence-container {
+        margin-top: 90px;
+    }
+
+    .why-banner-container {
+        height: 300px;
+    }
+
+    .banner-text {
+        margin-top: -131px;
+    }
+
+    .banner-text h1 {
+        font-size: 8em;
+        letter-spacing: .01em;
+    }
+
+    .blue-box {
+        height: 125px;
+        margin-top: 225px;
+    }
+
+    .text-bottom-container,
+    .text-top-container {
+        flex-direction: column;
+       
+    }
+
+    .client-container, .green-container,
+    .account-container, .value-container {
+        width: 100%;
+    }
+}
