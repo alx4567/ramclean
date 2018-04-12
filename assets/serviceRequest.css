@@ -6,7 +6,7 @@
 
 .request-banner {
     width: 100%; height: 400px;
-    background-image: url("../img/residential-banner.jpg");
+    background-image: url("../img/request-banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -315,8 +315,8 @@ input[type=submit] {
     height: 40px;
     padding: 0 20px;
 
-    color: #00a0dd;
-    background-color: #fff;
+    color: #fff;
+    background-color: #00a0dd;
     font-family: "brother-1816",sans-serif;
     font-style: italic;
     font-size: 15px;

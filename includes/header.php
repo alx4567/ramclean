@@ -15,7 +15,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://use.typekit.net/ksf0tjw.css">
     <link href="/assets/main.css" rel="stylesheet">
-    <link href="/assets/serviceRequest.css" rel="stylesheet">
     <link href="/assets/<?php echo $page; ?>.css" rel="stylesheet">
 
     <!-- Font Awesome -->
@@ -27,6 +26,8 @@
 
     <!-- Captcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
 
     <title><?php echo TITLE; ?></title>
 
