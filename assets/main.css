@@ -264,61 +264,8 @@ header{
     }
   }
 
-/* ---------- REQUEST FORM ---------- */
 
-
-/*
-.single {
-   
-    */
-form p {
-    margin-top: 20px;
-    font-size: 15px;
-}
-
-input[type=text], input[type=email], input[type=phone], textarea {
-    color:    #000;
-    font-family: "brother-1816",sans-serif;
-    font-size: 15px;
-    padding-left: 20px;
-}
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-::-ms-input-placeholder { /* Microsoft Edge */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-
-::placeholder { /* Most modern browsers support this now. */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-
-
-
-/* Dropdown Button */
-.dropbtn {
+  .dropbtn {
     width: 204px;
     height:50px;
     padding: 16px;
@@ -337,21 +284,11 @@ input[type=text], input[type=email], input[type=phone], textarea {
     font-weight: 300;
 }
 
+
 @media screen and (max-width: 1050px) {
     .dropbtn {
         display: none;
     }
-}
-
-
-
-
-
-#request-form {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30px;
 }
 
 
