@@ -57,7 +57,7 @@
                 <div class="commercial-container">
                     <input type="text" id="sqFt" class="single" name="sqFt" placeholder="ESTIMATED SQUARE FOOTAGE">
                     <br>
-                    <p>WHAT ARE YOU'RE WINDOW CLEANING NEEDS?</p>
+                    <p>WHAT ARE YOUR WINDOW CLEANING NEEDS?</p>
                     <div class="commercial-window-container">
                         <label class="checkContainer">EXTERIOR
                             <input type="checkbox">
@@ -86,7 +86,7 @@
                     <input type="text" id="bathRoom" class="double bathroom" name="bathRoom" placeholder="NUMBER OF BATHROOMS">
                 </div> <!-- bed-bath-container -->
                 
-                <p>WHAT ARE YOU'RE WINDOW CLEANING NEEDS?</p>
+                <p>WHAT ARE YOUR WINDOW CLEANING NEEDS?</p>
                 <div class="residential-window-container">
                     <label class="checkContainer">EXTERIOR
                         <input type="checkbox">

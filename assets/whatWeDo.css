@@ -17,11 +17,22 @@
 .comm-banner, 
 .con-banner {
     width: 100%; height: 400px;
-    background-image: url("../img/residential-banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     z-index: -2;
+}
+
+.res-banner {
+    background-image: url("../img/residential-banner.jpg");
+}
+
+.comm-banner {
+    background-image: url("../img/commercial-banner.jpg");
+}
+
+.con-banner {
+    background-image: url("../img/construction-banner.jpg");
 }
 
 .blue-box {
