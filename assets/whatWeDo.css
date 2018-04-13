@@ -153,8 +153,9 @@ h1 {
     width: 140px; height: 175px;
     margin: 20px auto 0;
     padding: 20px;
-    background-color: #a6a6a6;
+    background-color: #25215f;
     text-align: center;
+    border-radius: 20px;
 }
 
 .service-icon {
@@ -297,5 +298,19 @@ h1 {
 
     .banner-text {
         margin-top: -113px;
+    }
+
+    .res-info {
+        margin-top: 20px;
+    }
+
+    .comm-cleaning-container,
+    .con-cleaning-container {
+        margin-top: 75px;
+    }
+
+    .comm-info-text,
+    .con-info {
+        margin-top: 50px;
     }
 }

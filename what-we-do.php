@@ -86,56 +86,56 @@
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/vacuum.svg" alt="?" /></div>
                             <small>Vacuuming</small>
                         </div>
                     </div> <!-- service -->
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/dusting.svg" alt="?" /></div>
                             <small>Dusting</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/trash.svg" alt="?" /></div>
                             <small>Trash Removal</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/restocking.svg" alt="?" /></div>
                             <small>Restroom Restocking</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/bathroom.svg" alt="?" /></div>
                             <small>Restroom Cleaning</small>
                         </div>
                     </div> <!-- service -->
                     
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/kitchen.svg" alt="?" /></div>
                             <small>Kitchen Cleaning</small>
                         </div>
                     </div> <!-- service -->
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/mopping.svg" alt="?" /></div>
                             <small>Mopping</small>
                         </div>
                     </div> <!-- service -->
 
                     <div class="service">
                         <div class="service-wrapper">
-                            <div class="service-icon"><img src="img/icons.png" alt="?" /></div>
+                            <div class="service-icon"><img src="img/window.svg" alt="?" /></div>
                             <small>Windows</small>
                         </div>
                     </div> <!-- service -->
