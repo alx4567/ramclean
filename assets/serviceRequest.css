@@ -54,8 +54,6 @@ h1 {
     flex: 1;
     font-size: 3em;
     line-height: 1.5em;
-
-    
 }
 
 .request-text-container p {
@@ -69,7 +67,8 @@ h1 {
 
 input, textarea {
     height: 50px;
-    margin: 30px 0 0 0;
+    width: 100%;
+    margin: 0 0 0 0;
 
     border: 1px solid #b1b1b1;
     -webkit-border-radius: 8px;
@@ -77,15 +76,32 @@ input, textarea {
     border-radius: 8px;
 }
 
+.window-option-container,
+.pets-option-container,
+.address-container,
+.contact-container,
+.cleaning-container,
+.aquaria_captcha {
+    display: flex;
+}
+
+.window-option-container div,
+.pets-option-container div,
+.address-container section,
+.contact-container section,
+.cleaning-container div,
+.captcha-image,
+.aquaria_captcha input {
+    flex: 1;
+}
+
 textarea {
     height: 100px;
-    margin: 25px 0;
-    padding: 10px 0;
+    padding: 10px;
     z-index: 1;
 }
 
 form p {
-    margin-top: 20px;
     font-size: 15px;
     color: #000;
 }
@@ -98,238 +114,14 @@ form p {
     margin: -7px 0 0 0;
 }
 
-.about-you-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.address-phone-container, .commercial-container, .residential-container {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.city-state-container, .zip-phone-container,
-.bed-bath-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.tab-button-container, .commercial-window-container, .residential-window-container,
-.pets-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.city-state-container input, .zip-phone-container input, 
-.tab-button-container div, .bed-bath-container input,
-.commercial-container textarea, .commercial-container input,
-.residential-container input {
-    width: 100%;
-    flex: 1;
-    
-}
-
-.tab-button-container div {
-    max-width: 150px;
-}
-
-.residentialBtn, .bathroom {
-    margin-right: 0;
-}
-
-.city, .zip, .commercialBtn, .bedroom {
-    margin-right: 2%;
-}
-
-input[type=text], input[type=email], input[type=phone], textarea {
-    color:    #000;
-    font-family: "brother-1816",sans-serif;
-    font-size: 15px;
-    padding-left: 20px;
-}
-
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-::-ms-input-placeholder { /* Microsoft Edge */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-
-::placeholder { /* Most modern browsers support this now. */
-    color:    #b1b1b1;
-    font-style: italic;
-    letter-spacing: .1em;
-}
-
-
-
-
-
-/* Style the tab */
-.tab, .tab2 {
-    overflow: hidden;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tablinks {
-    width: 150px;
-    margin: 30px 2% 0 0;
-    padding: 15px 16px;
-
-    border: none;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    
-    background-color: rgba(0, 160, 221, 0.3);
-    color: #fff;
-    display: inline-block;
-    cursor: pointer;
-
-    text-align: center;
-    font-size: 2.5em;
-    
-    transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tablinks:hover {
-    background-color: rgba(0, 160, 221, 1.0);
-}
-
-/* Create an active/current tablink class */
-.tablinks.active {
-    background-color: rgba(0, 160, 221, 1.0)
-}
-
-/* Style the tab content */
-.tabcontent, .tabcontent2 {
-    display: none;
-    border-top: none;
-}
-
-.tabcontent p, .tabcontent2 p {
-    margin: 30px 0 4px 0;
-    font-size: 18px;
-    font-weight: 700;
-}
-
-
-
-/* ----------------------------- Checkmarks ----------------------------- */
-/* The container */
-.checkContainer {
-    position: relative;
-    padding: 0 0 0 20px;
-    margin: 10px 40px 5px 0;
-    cursor: pointer;
-    font-family: "brother-1816",sans-serif;
-    font-size: 15px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: #000;
-    font-weight: 400;
-}
-
-/* Hide the browser's default checkbox */
-.checkContainer input {
-    display: none;
-    cursor: pointer;
-}
-
-/* Create a custom checkbox */
-.checkmark {
-    position: absolute;
-    top: 4px;
-    left: 0;
-    height: 15px;
-    width: 15px;
-    background-color: #fff;
-    border: 1px solid #b1b1b1;
-}
-
-/* On mouse-over, add a grey background color */
-.checkContainer:hover input ~ .checkmark {
-    background-color: #ddd;
-}
-
-/* When the checkbox is checked, add a blue background */
-.checkContainer input:checked ~ .checkmark {
-    background-color: #fff;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-/* Show the checkmark when checked */
-.checkContainer input:checked ~ .checkmark:after {
-    display: block;
-}
-
-/* Style the checkmark/indicator */
-.checkContainer .checkmark:after {
-    left: 4px;
-    top: 0;
-    width: 4px;
-    height: 10px;
-    border: solid #00a0dd;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-/* Style submit button */
-input[type=submit] {
-    height: 40px;
-    padding: 0 20px;
-
-    color: #fff;
+.btn {
     background-color: #00a0dd;
-    font-family: "brother-1816",sans-serif;
-    font-style: italic;
-    font-size: 15px;
-
+    color: #fff;
+    margin-top: 36px;
+    padding: 10px 20px;
+    border: none;
     cursor: pointer;
 }
-
-/* Move submit button on click */
-input[type=submit]:active {
-    transform: translate(2px, 2px);
-}
-
-
 
 
 
