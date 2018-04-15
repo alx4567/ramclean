@@ -41,7 +41,7 @@ label {
 .aquaria_module textarea,
 .aquaria_module select,
 #aquaria_form_submit{
-    font-family:Lato;
+    font-family: "brother-1816", sans-serif ;
     color: #555;
 }
 
