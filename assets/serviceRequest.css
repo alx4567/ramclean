@@ -14,15 +14,10 @@
 }
 
 .blue-box {
-    width: 48%; height: 210px;
+    width: 100%; height: 200px;
     min-width: 720px;
-    margin: 300px 0 0 -50px;
+    margin: 300px 0 0;
     background-color: rgba(0, 160, 221, 0.9);
-    
-    position: relative;
-    z-index: -1;
-    transform-origin: left bottom;
-    transform: skewX(-15deg);
 }
 
 h1 {
@@ -39,8 +34,24 @@ h1 {
 }
 
 .banner-text {
-    margin-top: -230px;
+    display: flex;
+    margin-top: -250px;
     z-index: 5;
+    justify-content: space-between;
+}
+
+.banner-text h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.banner-title-logo {
+    display: inline-block;
+    vertical-align: middle;
+
+    height: 275px;
+    margin-left: 25px;
 }
 
 .request-main-container {
@@ -153,29 +164,36 @@ form p {
     }
 }
 
-@media screen and (max-width: 870px) {
-
-    .banner-text h1 {
-        font-size: 10em;
-        letter-spacing: .01em;
-        text-align: center;
-    }
-
-    .blue-box {
-        width: 100%; height: 180px;
-        min-width: 0;
-        margin: 323px 0 0 0;
-        background-color: rgba(0, 160, 221, 0.9);
-        
-        position: relative;
-        z-index: -1;
-        transform-origin: left bottom;
-        transform: skewX(0deg);
+@media screen and (max-width: 875px) {
+    .blue-box,
+    .con-banner .blue-box {
+        height: 175px;
     }
 
     .banner-text {
-        margin-top: -187px;
+        margin-top: -200px;
     }
+
+    .banner-title-logo {
+        height: 225px;
+    }
+    
+    .banner-text h1 {
+        font-size: 10em;
+        letter-spacing: .01em;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .banner-title-logo {
+        display: none;
+    }
+
+    .banner-text h1 {
+        width: 100%;
+        text-align: center;
+    }    
 }
 
 @media screen and (max-width: 575px) {
@@ -190,6 +208,7 @@ form p {
     .banner-text h1 {
         font-size: 8em;
         letter-spacing: .01em;
+        margin: 0;
     }
 
     .blue-box {

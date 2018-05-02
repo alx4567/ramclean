@@ -11,7 +11,10 @@
     <section class="why-banner-container">
         <div class="why-banner-img-wrapper"></div>
         <div class="blue-box"></div>
-        <div class="banner-text"><h1>SUPERIOR<br>CLEANERS</h1></div>
+        <div class="banner-text">
+            <h1>SUPERIOR<br>CLEANERS</h1>
+            <img src="img/ramclean-logo-banner.png" alt="RamClean logo" class="banner-title-logo" />
+        </div>
     </section> <!-- why-banner-container -->
 
     <section class="excellence-container">

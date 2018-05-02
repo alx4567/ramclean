@@ -19,7 +19,7 @@ function filterFunction() {
     }
 }
 
-
+/*
 function openTab(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -43,6 +43,8 @@ function openTab(evt, cityName) {
     
 }
 
+*/
+
 // mobile header
 
     function mobileMenu() {
@@ -54,6 +56,16 @@ function openTab(evt, cityName) {
     }
 }
 
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex-1].style.display = "block";  
+  }
 
 // review slide show
 var slideIndex = 1;
@@ -63,16 +75,19 @@ function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+
+
+
+function showDivs2(n) {
+    var i;
+    var x = document.getElementsByClassName("logo-slides");
+    if (n > x.length) {logoIndex = 1}    
+    if (n < 1) {logoIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[logoIndex-1].style.display = "inline-block";  
   }
-  x[slideIndex-1].style.display = "block";  
-}
 
 // review slide show
 var logoIndex = 1;
@@ -82,14 +97,5 @@ function plusDivs2(n) {
   showDivs2(logoIndex += n);
 }
 
-function showDivs2(n) {
-  var i;
-  var x = document.getElementsByClassName("logo-slides");
-  if (n > x.length) {logoIndex = 1}    
-  if (n < 1) {logoIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[logoIndex-1].style.display = "inline-block";  
-}
+
 

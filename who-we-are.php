@@ -11,7 +11,10 @@
     <section class="about-banner">
         <div class="about-banner-img-wrapper"></div>
         <div class="blue-box"></div>
-        <div class="banner-text"><h1>A BIT ABOUT<br>RAMCLEAN</h1></div>
+        <div class="banner-text">
+            <h1>A BIT ABOUT<br>RAMCLEAN</h1>
+            <img src="img/ramclean-logo-banner.png" alt="RamClean logo" class="banner-title-logo" />
+        </div>
     </section> <!-- about-banner -->
 
     <section class="about-info-container">

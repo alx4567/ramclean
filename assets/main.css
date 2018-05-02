@@ -139,6 +139,13 @@ header{
     font-size: 1.25em;
 }
 
+@media screen and (max-width: 775px) {
+    .phoneNum small {
+        display: none;
+    }
+}
+
+
 @media screen and (max-width: 500px) {
     .social-media-container {
         display: none;

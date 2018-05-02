@@ -30,6 +30,8 @@
     color: #fff;
 }
 
+
+
 .banner-text {
     display: flex;
     flex-direction: column;
@@ -70,8 +72,18 @@
     width: 75%;
 }
 
+.index-banner-logo {
+    flex:1;
+    text-align: right;
+}
+
+.index-banner-logo img {
+    height: 400px;
+    margin-top: 90px;  
+}
+
 .banner-animation {
-    margin: 20px 0 -20px;
+    margin: -40px 0 10px;
 }
 
 .banner-animation img {
@@ -134,10 +146,11 @@
 }
 
 .icon-box {
+    width: 150px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 40px 35px;
+    padding: 40px 0;
     margin: 0 10px 20px;
 
     background-color: #00a0dd;
@@ -392,8 +405,17 @@
         width: 80%;
         margin: 30px auto 0;
     }
+
+    .index-banner-logo {
+        margin-top: -100px;
+        margin-right: 50px;
+    }
+
+    .index-banner-logo, .index-banner-logo img {
+        height: 300px;
+    }
     
-    .banner-animation, .vacuum-man, .shoutoutImg  {
+    .vacuum-man, .shoutoutImg  {
         display: none;
     }
 
@@ -408,37 +430,52 @@
     
 }
 
-
-
-@media screen and (max-width: 700px) {
-    .banner-container {
-        margin-top: 0;
+@media screen and (max-width: 960px) {
+    .banner-maxW {
+        flex-direction: column-reverse;
     }
-    
+
+    .index-banner-logo {
+        text-align: center;
+        margin: -20px auto 50px;
+    }
+
+    .index-banner-logo img {
+        margin: 0;
+    }
+
     .banner-headline {
-        display: flex;
-        flex-direction: column;
-        font-size: 10em;
+        display: inline;
+        font-size: 7em;
         line-height: 1em;
+        text-align: center;
     
         /* border: 1px solid #fff;  /* for debugging */
     }
 
     .banner-headline em {
-        font-size: .4em;
-        line-height: 1em;
-        margin: 0 auto;
+        font-size: 1em;
+        font-weight: 600;
+        margin: 0;
     }
     
     .banner-headline .back {
         margin: 0 auto;
     }
 
+    .banner-headline strong {
+        font-weight: 600;
+    }
+
     .banner-text p {
-        margin-top: 2em;
-        font-size: 3em;
-        line-height: 1.5em;
-        width: 75%;
+        font-size: 4em;
+        margin-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner-container {
+        margin-top: 0;
     }
 
     .premier-cleaners-container h2{

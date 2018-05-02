@@ -10,7 +10,10 @@
 
     <section class="request-banner">
         <div class="blue-box"></div>
-        <div class="banner-text"><h1>REQUEST A<br>QUOTE</h1></div>
+        <div class="banner-text">
+            <h1>REQUEST A<br>QUOTE</h1>
+            <img src="img/ramclean-logo-banner.png" alt="RamClean logo" class="banner-title-logo" />
+        </div>
     </section> <!-- res-banner -->
 
 

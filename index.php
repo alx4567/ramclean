@@ -7,7 +7,13 @@
 ?>
 
     <section class="banner-container">
-        <div class="maxW">
+        <div class="maxW banner-maxW">
+            <!--
+            <div class="banner-animation">
+                <img src="img/mom-and-daughter.png" alt="Smiling mother giving piggy-back ride to daughter">
+            </div>
+            -->
+
             <div class="banner-text">
                 <div class="banner-headline">
                     <em>TAKE YOUR</em>
@@ -19,9 +25,11 @@
                     to enjoy every weekend!
                 </p>
             </div><!-- banner-text -->
-            <div class="banner-animation">
-                <img src="img/mom-and-daughter.png" alt="Smiling mother giving piggy-back ride to daughter">
-            </div><!-- banner-animation -->
+
+            <div class="index-banner-logo banner-animation">
+                <img src="img/ramclean-logo-banner.png" />
+            </div>
+
         </div>
     </section> <!-- banner-container -->
 
@@ -35,13 +43,25 @@
                         <div class="icon"><i class="fas fa-home fa-4x"></i></div>
                         Residential<br>Cleaning
                     </div> <!-- icon-box -->
+
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-building fa-4x"></i></div>
                         Commercial<br>Cleaning
                     </div> <!-- icon-box -->
+
                     <div class="icon-box">
                         <div class="icon"><i class="fas fa-wrench fa-4x"></i></div>
                         Construction<br>Cleanup
+                    </div> <!-- icon-box -->
+
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-paint-brush fa-4x"></i></div>
+                        Floor Care<br> <br> 
+                    </div> <!-- icon-box -->
+
+                    <div class="icon-box">
+                        <div class="icon"><i class="fab fa-microsoft fa-4x"></i></div>
+                        Window<br>Cleaning
                     </div> <!-- icon-box -->
                 </div> <!-- service-icons -->
             <!--

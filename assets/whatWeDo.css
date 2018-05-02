@@ -35,20 +35,12 @@
     background-image: url("../img/construction-banner.jpg");
 }
 
-.blue-box {
-    width: 48%; height: 175px;
+.blue-box,
+.con-banner .blue-box {
+    width: 100%; height: 175px;
     min-width: 720px;
-    margin: 300px 0 0 -50px;
+    margin: 300px 0 0;
     background-color: rgba(0, 160, 221, 0.9);
-    
-    position: relative;
-    z-index: -1;
-    transform-origin: left bottom;
-    transform: skewX(-15deg);
-}
-
-h1 {
-    color: #fff;
 }
 
 .banner-text, 
@@ -62,8 +54,28 @@ h1 {
 }
 
 .banner-text {
-    margin-top: -187px;
+    display: flex;
+    margin-top: -250px;
     z-index: 5;
+    justify-content: space-between;
+}
+
+.banner-text h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 63px;
+}
+
+.banner-title-logo {
+    display: inline-block;
+    vertical-align: middle;
+
+    height: 275px;
+    margin-left: 25px;
+}
+
+h1 {
+    color: #fff;
 }
 
 .res-info-top {
@@ -181,12 +193,6 @@ h1 {
     font-weight: 400;
 }
 
-
-
-.con-banner .blue-box {
-    width: 53%; min-width: 870px;
-}
-
 .con-info {
     display: flex;
     margin-top: 100px;
@@ -208,9 +214,6 @@ h1 {
     margin: 0 auto;
     vertical-align: bottom;
 }
-
-
-
 
 @media screen and (max-width: 1050px) {
     .content {
@@ -260,18 +263,35 @@ h1 {
     }
 }
 
+@media screen and (max-width: 1105px) {
+    .blue-box,
+    .con-banner .blue-box {
+        height: 150px;
+    }
+
+    .banner-text {
+        margin-top: -200px;
+    }
+
+    .banner-title-logo {
+        height: 225px;
+    }
+    
+    .banner-text h1 {
+        font-size: 10em;
+        letter-spacing: .01em;
+        margin-top: 45px;
+    }
+}
+
 @media screen and (max-width: 870px) {
     .res-info {
         flex-direction: column;
     }
 
-    .banner-text h1 {
-        font-size: 10em;
-        letter-spacing: .01em;
-        text-align: center;
-    }
+    
 
-    .blue-box,
+
     .con-banner .blue-box  {
         width: 100%; height: 150px;
         min-width: 0;
@@ -284,10 +304,6 @@ h1 {
         transform: skewX(0deg);
     }
 
-    .banner-text {
-        margin-top: -155px;
-    }
-
     .comm-info-img,
     .con-info-img {
         display: none;
@@ -295,11 +311,23 @@ h1 {
 
 }
 
+@media screen and (max-width: 815px) {
+    .banner-title-logo {
+        display: none;
+    }
+
+    .banner-text h1 {
+        width: 100%;
+        text-align: center;
+    }    
+}
+
 @media screen and (max-width: 660px) {
     .banner-text h1 {
         font-size: 7em;
         letter-spacing: .01em;
         text-align: center;
+        margin: 0;
     }
 
     .blue-box,

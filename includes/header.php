@@ -18,7 +18,7 @@
     <link href="/assets/<?php echo $page; ?>.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
     <!-- Request Form -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -46,7 +46,7 @@
                 <a target="_blank" href="https://www.linkedin.com/company/28181877/ "><i class="fab fa-linkedin-in"></i></a>
                 <a target="_blank" href="https://www.google.com/search?ei=ohTEWp3GMI2vjwSk07yABA&q=ramclean+champaign+reviews&oq=ramclean+champaign+reviews&gs_l=psy-ab.3..35i39k1.4882.5912.0.6040.8.7.0.0.0.0.314.835.0j2j1j1.4.0....0...1.1.64.psy-ab..4.4.835....0.5TARfqFIJUI#lrd=0x880cd0b41d7b91f5:0x76ef42e24d189746,1,,,"><i class="fab fa-google"></i></a>
             </div>
-            <a  class="phoneNum" href="tel:+217-202-5235">(217) 202-5232</a>
+            <a  class="phoneNum" href="tel:+217-202-5235"><small style="font-weight: 400; font-size: 0.75em;">Call or text 24/7 for your free quote:</small> (217) 202-5232</a>
         </section> <!-- social-media-container"> -->
 
         <section class="mainNav-container">
