@@ -124,18 +124,43 @@
 
                         <div class="w3-content w3-display-container logos-container">
                             <div class="logo-slides"> 
-                                <div class="clientLogos"><img src="img/clientLogo1.png" alt="Client 1 logo" class="partnerLogo"></div>
-                                <div class="clientLogos"><img src="img/clientLogo2.png" alt="Client 2 logo" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/ramshaw.png" alt="Client 1 logo" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/illinois.png" alt="Client 2 logo" class="partnerLogo"></div>
                             </div>
                             <div class="logo-slides"> 
-                                <div class="clientLogos"><img src="img/clientLogo2.png" alt="logo3" class="partnerLogo"></div>
-                                <div class="clientLogos"><img src="img/clientLogo1.png" alt="logo" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/safeworks.png" alt="logo3" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/isu.png" alt="logo" class="partnerLogo"></div>
                             </div>
                             <div class="logo-slides"> 
-                                <div class="clientLogos"><img src="img/clientLogo2.png" alt="logo4" class="partnerLogo"></div>
-                                <div class="clientLogos"><img src="img/clientLogo3.png" alt="logo" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/worden.png" alt="logo4" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/bare.png" alt="logo" class="partnerLogo"></div>
                             </div>
-
+                            <div class="logo-slides"> 
+                                <div class="clientLogos"><img src="img/client-logos/arch-exp.png" alt="logo4" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/vesuvius.png" alt="logo" class="partnerLogo"></div>
+                            </div>
+                            <div class="logo-slides"> 
+                                <div class="clientLogos"><img src="img/client-logos/217.png" alt="logo4" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/champaign.png" alt="logo" class="partnerLogo"></div>
+                            </div>
+                            <div class="logo-slides"> 
+                                <div class="clientLogos"><img src="img/client-logos/fire.png" alt="logo4" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/lodgic.png" alt="logo" class="partnerLogo"></div>
+                            </div>
+                            <div class="logo-slides"> 
+                                <div class="clientLogos"><img src="img/client-logos/epiworks.png" alt="logo4" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/ryan-dallas.png" alt="logo" class="partnerLogo"></div>
+                            </div>
+                            <div class="logo-slides"> 
+                                <div class="clientLogos"><img src="img/client-logos/r-rentals.png" alt="logo4" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/prospect-bank.png" alt="logo" class="partnerLogo"></div>
+                            </div>
+                        <!-- 
+                            <div class="logo-slides"> 
+                                <div class="clientLogos"><img src="img/client-logos/prospect-bank.png" alt="logo4" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/prairie-river.png" alt="logo" class="partnerLogo"></div>
+                            </div>
+                        -->
                             <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
                             <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
                         </div>
