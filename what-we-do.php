@@ -25,7 +25,8 @@
 
         <div class="comm-info">
             <div class="comm-info-text">
-                <h6>RamClean delivers expert, full-service janitorial solutions throughout the greater Champaign-Urbana area. RamClean 
+               <h6>Champaign-Urbana's Trusted Cleaners</h6>
+               <h6 style="font-size: 3.5em; color: grey; font-weight: 300;">RamClean delivers expert, full-service janitorial solutions throughout the greater Champaign-Urbana area. RamClean 
                     customizes all services to the exact specifications of every client, every time.</h6>
             </div> <!-- comm-info-text -->
 
@@ -114,7 +115,7 @@
             <div class="res-info-top">
                 <div class="trained-prof-text">
 
-                            <h2>TRAINED PROFESSIONALS</h2>
+                            <h2>RESPECTED PROFESSIONALS</h2>
                             <p>Our trained teams of professional cleaning specialists will tackle dirt, dust and grime and leave your
                                 home shining. Our products and extensive industry experience give us a leg up when it comes to leaving
                                 your house cleaner, and healthier, than ever before. Our trained teams of professional cleaning
@@ -170,7 +171,7 @@
                 <p>Building contractors are not professional cleaners and often leave dangerous and unhealthy messes of debris, dirt and trash
                     both inside and outside a job site.
                     <br><br>
-                    RamClean specializes in construction cleanup and can get your work space sparkling, safe and ready for business.
+                    RamClean's trusted and respected team specializes in construction cleanup and can get your work space sparkling, safe and ready for business.
                     <br><br>
                     Our process includes cleaning and shining all furniture, sinks, appliances, toilets, cabinets and countertops, plus extensive 
                     dust removal, washing and scraping windows and doors, and cleaning window tracks, baseboards and more. Refinishing floors is 

@@ -31,22 +31,25 @@
         <div class="about-text-container">
             <p>RamClean owner and founder Charlie Ramshaw recognized an opportunity to use 
             his 25 years of experience in the Champaign-Urbana area to offer a more hands-on, 
-            comprehensive janitorial experience for commercial clients.</p>
+            comprehensive janitorial experience for commercial and residential clients.</p>
 
-            <p>As a member of a family-owned business for decades, Charlie learned that 
-            while cleaning is often the last thing on a business owner’s mind, cleanliness 
-            is the first thing noticed by customers.</p>
+            <p>Using RamClean's respected cleaning services gives you one less thing to worry 
+            about. Knowing your home or office is going to be cleaned by trusted and experience
+            professionals will allow you to relax and enjoy your time with friends and family
+            even more.</p>
 
-            <p>At RamClean, we know a clean and safe work space is critical to success. It’s 
-            not just about clients and customers. Employees are also happier and more 
-            productive when they are in a clean environment.</p>
+            <h6 style="font-size: 1.25em; color: #25215f;">CHARITABLE EFFORTS</h6>
 
-            <p>Using RamClean professional cleaning services gives business owners one less 
-            thing to worry about. When you leave your office or business for the night, you 
-            can relax, assured it will be clean the next morning.</p>
+            <p>RamClean knows that at the heart of any strong and trusted business is an even stronger
+            community. So it's no surprise that a main principle of our business is giving  back. A few 
+            of the local orgainization we have the privelege of contributing to are the Central Illinois
+            Yout Football League, the Don Moyer Boys &amp; Girls Club, and First String. </p>
 
-            <p>Join the other Champaign-Urbana businesses that trust RamClean for their 
-            commercial cleaning needs.</p>
+            <div class="charity-logo-container">
+                <img src="img/charity-logos/boys-girls-club-logo.png" alt="Boys and Girls Club Logo" />
+                <img src="img/charity-logos/ciyfl-logo.png" alt="Central Illinois Football League Logo"/>
+                <img src="img/charity-logos/first-string-logo.png" alt="First String Logo" />
+            </div>
         </div> <!-- about-text-container -->
     </section> <!-- about-info-container -->
 
