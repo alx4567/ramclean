@@ -128,7 +128,7 @@
                                 <div class="clientLogos"><img src="img/client-logos/illinois.png" alt="Client 2 logo" class="partnerLogo"></div>
                             </div>
                             <div class="logo-slides"> 
-                                <div class="clientLogos"><img src="img/client-logos/safeworks.png" alt="logo3" class="partnerLogo"></div>
+                                <div class="clientLogos"><img src="img/client-logos/vs.png" alt="logo3" class="partnerLogo"></div>
                                 <div class="clientLogos"><img src="img/client-logos/isu.png" alt="logo" class="partnerLogo"></div>
                             </div>
                             <div class="logo-slides"> 
