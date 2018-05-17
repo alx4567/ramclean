@@ -183,6 +183,10 @@ form p {
         letter-spacing: .01em;
         margin-top: 15px;
     }
+
+    .blue-box {
+        min-width: 0;
+    }
 }
 
 @media screen and (max-width: 650px) {

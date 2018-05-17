@@ -320,7 +320,11 @@ h1 {
     .banner-text h1 {
         width: 100%;
         text-align: center;
-    }    
+    }
+
+    .blue-box {
+        min-width: 0;
+    }
 }
 
 @media screen and (max-width: 660px) {
