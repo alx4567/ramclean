@@ -220,7 +220,8 @@ h1 {
         margin-top: 0;
     }
 
-    .res-cleaning-container {
+    .res-cleaning-container,
+    .comm-cleaning-container {
         margin-top: 0;
     }
 
@@ -343,7 +344,7 @@ h1 {
         margin-top: 20px;
     }
 
-    .comm-cleaning-container,
+    .res-cleaning-container,
     .con-cleaning-container {
         margin-top: 75px;
     }
