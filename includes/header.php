@@ -17,6 +17,8 @@
     <link href="/assets/main.css" rel="stylesheet">
     <link href="/assets/<?php echo $page; ?>.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
@@ -38,7 +40,14 @@
 
 <body class="<?php echo $page; ?>" >
 
+     
+
     <header>
+    <section class="mobile-pop fixedElement">
+        <h6><a href="service-request.php">Request A Quote!</a></h6>
+    </section>
+        
+
         <section class="social-media-container">
             <div class="socialWrapper">
                 <a target="_blank" href="https://www.facebook.com/RamCleaners"><i class="fab fa-facebook-f"></i></a>

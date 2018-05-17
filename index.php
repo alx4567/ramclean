@@ -6,6 +6,8 @@
 
 ?>
 
+    
+
     <section class="banner-container">
         <div class="maxW banner-maxW">
             <!--
@@ -177,9 +179,18 @@
         </div>
     </section> <!-- shoutout-container -->
     
-
-
-
+<script>
+    $(window).scroll(function(e){ 
+        var $el = $('.fixedElement'); 
+        var isPositionFixed = ($el.css('position') == 'fixed');
+        if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+            $('.fixedElement').css({'position': 'fixed', 'top': '0px'}); 
+        }
+        if ($(this).scrollTop() < 200 && isPositionFixed)
+        {
+           $('.fixedElement').css({'position': 'static', 'top': '0px'}); 
+         } 
+});
 
 <?php
 
