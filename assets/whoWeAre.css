@@ -237,4 +237,8 @@ h1 {
     .google-map-container {
         margin-top: 0;
     }
+
+    .charity-logo-container {
+        display: none;
+    }
 }

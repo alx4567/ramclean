@@ -16,6 +16,7 @@
             </div>
             -->
 
+            
             <div class="banner-text">
                 <div class="banner-headline">
                     <em>TAKE YOUR</em>
@@ -82,7 +83,7 @@
                     Our trained teams of professional cleaning specialists will tackle 
                     dirt, dust and grime and leave your home shining. Our products and 
                     extensive industry experience give us a leg up when it comes to 
-                    eaving your house cleaner, and healthier, than ever before.
+                    leaving your house cleaner, and healthier, than ever before.
                 </p>
             </div> <!-- premier-wrapper -->
         </div>

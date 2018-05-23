@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.mobile-pop {
+    display: none;
+}
+
 body {
     font-family: "brother-1816",sans-serif;
     font-style: normal;
@@ -140,19 +144,37 @@ header{
 }
 
 @media screen and (max-width: 775px) {
-    .phoneNum small {
+    .socialWrapper {
         display: none;
+    }
+
+    .social-media-container {
+        justify-content: space-around;
+    }
+
+    .logo {
+        margin-left: 20px;
     }
 }
 
 
 @media screen and (max-width: 500px) {
-    .social-media-container {
-        display: none;
+    .phoneNum {
+        text-align: center;
     }
 
+    .phoneNum small {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .social-media-container {
+        height: 75px;
+    }
+    
+
     header {
-        height: 50px;  
+        height: 75px;  
     }
 
     main.content {
@@ -268,6 +290,14 @@ header{
 
     .topnav.responsive .noMobile {
         display: none;
+    }
+
+    .social-media-container {
+        padding-left: 20px; padding-right: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
     }
   }
 
