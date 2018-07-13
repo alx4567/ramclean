@@ -30,7 +30,7 @@
         </div> <!-- contact-container -->
         <div class="about-text-container">
             <p>RamClean owner and founder Charlie Ramshaw recognized an opportunity to use 
-            his 25 years of experience in the Champaign-Urbana area to offer a more hands-on, 
+            his 25 years of experience in the Central Illinois area to offer a more hands-on, 
             comprehensive janitorial experience for commercial and residential clients.</p>
 
             <p>Using RamClean's respected cleaning services gives you one less thing to worry 

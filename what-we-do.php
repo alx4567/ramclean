@@ -25,7 +25,7 @@
 
         <div class="comm-info">
             <div class="comm-info-text">
-               <h6>Champaign-Urbana's Trusted Cleaners</h6>
+               <h6>Central Illinois' Trusted Cleaners</h6>
                <h6 style="font-size: 3.5em; color: grey; font-weight: 300;">RamClean delivers expert, full-service janitorial solutions throughout the greater Champaign-Urbana area. RamClean 
                     customizes all services to the exact specifications of every client, every time.</h6>
             </div> <!-- comm-info-text -->

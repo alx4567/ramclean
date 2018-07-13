@@ -26,7 +26,7 @@
             <div class="text-top-container">
                 <div class="client-container">
                     <h4>CLIENT FOCUSED</h4>
-                    <p>Our valued Champaign-Urbana clients know the RamClean difference. 
+                    <p>Our valued Central Illinois clients know the RamClean difference. 
                         From construction cleanups to window cleaning and small-office 
                         cleaning, we’ve got every detail covered to ensure 100 percent 
                         satisfaction.</p>

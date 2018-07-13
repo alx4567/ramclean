@@ -103,6 +103,25 @@
                     <input id="aquaria_captcha-form" type="text" data-validation="empty-value" data-err-msg="Please enter captcha code" class="form-control" placeholder="Captcha code" name="aquaria_captcha-form" autocomplete="off" style="font-size: 14px; height: 40px; border-radius: 4px;">
                 </section>
                 
+
+                <div id="aquariaModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="aquariaModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> -->
+                        <h4 class="modal-title" id="aquariaModalLabel"><i style="color: green;" class="fa fa-check-circle"></i> <span id="aquariaModalLabelTitle"></span><a class="anchorjs-link" href="#aquariaModalLabel"><span class="anchorjs-icon"></span></a></h4>
+                        </div>
+                        <div class="modal-body">
+                        <p style="text-align: center; margin-top: 24px;"></p>
+                        </div>
+                        <div class="modal-footer" style="text-align: center; margin-top: 24px;">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" style="margin: 0 auto;">OK</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
                 <!-- Submit -->
                 <section id="aquaria_form_submit" class="input-group aquaria_module col-sm-5" style="float: right !important;">
                     <button class="btn btn-lg btn-primary btn-block" data-loading-text="Sending ..." autocomplete="off" type="submit" style="font-size: 18px; border-radius: 4px;">Submit Application</button>
