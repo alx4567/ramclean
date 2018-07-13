@@ -1,0 +1,249 @@
+.request-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.request-banner {
+    width: 100%; height: 400px;
+    background-image: url("../img/chooseUs-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+}
+
+.blue-box {
+    width: 100%; height: 200px;
+    min-width: 720px;
+    margin: 300px 0 0;
+    background-color: rgba(0, 160, 221, 0.9);
+}
+
+h1 {
+    color: #fff;
+    letter-spacing: .01em;
+    line-height: 1.25em;
+}
+
+.banner-text,
+.request-main-container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.banner-text {
+    display: flex;
+    margin-top: -250px;
+    z-index: 5;
+    justify-content: space-between;
+}
+
+.banner-text h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.banner-title-logo {
+    display: inline-block;
+    vertical-align: middle;
+
+    height: 275px;
+    margin-left: 25px;
+}
+
+.request-main-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 175px;
+}
+
+.request-text-container {
+    flex: 1;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+.request-text-container p {
+    width: 80%;
+}
+
+.form-container {
+    flex: 2;
+    margin: 0 auto 100px auto;
+    max-width: 950px;
+}
+
+input, textarea {
+    height: 50px;
+    width: 100%;
+    margin: 0 0 0 0;
+
+    border: 1px solid #b1b1b1;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.window-option-container,
+.pets-option-container,
+.address-container,
+.contact-container,
+.cleaning-container,
+.aquaria_captcha {
+    display: flex;
+}
+
+.window-option-container div,
+.pets-option-container div,
+.address-container section,
+.contact-container section,
+.cleaning-container div,
+.captcha-image,
+.aquaria_captcha input {
+    flex: 1;
+}
+
+textarea {
+    height: 100px;
+    padding: 10px;
+    z-index: 1;
+}
+
+form p {
+    font-size: 15px;
+    color: #000;
+}
+
+.form-container h2 {
+    color: #00a0dd;
+    font-size: 5em;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin: -7px 0 0 0;
+}
+
+.btn {
+    background-color: #00a0dd;
+    color: #fff;
+    margin-top: 36px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.attach_bt {
+    margin:0;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+    font-size: 18px !important;
+}
+
+.form-container p {
+    width: 95%;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .content, .request-container {
+        margin-top: 0;
+    }
+
+    .request-main-container {
+        flex-direction: column;
+    }
+
+    .request-text-container {
+        margin-bottom: 75px;
+    }
+
+    .request-text-container p {
+        width: 100%;
+    }
+
+    .request-text-container p strong {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .blue-box,
+    .con-banner .blue-box {
+        height: 175px;
+    }
+
+    .banner-text {
+        margin-top: -200px;
+    }
+
+    .banner-title-logo {
+        height: 225px;
+    }
+    
+    .banner-text h1 {
+        font-size: 9.75em;
+        letter-spacing: .01em;
+        margin-top: 15px;
+    }
+
+    .blue-box {
+        min-width: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .banner-title-logo {
+        display: none;
+    }
+
+    .banner-text h1 {
+        width: 100%;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 575px) {
+    .request-banner {
+        height: 300px;
+    }
+
+    .banner-text {
+        margin-top: -158px;
+    }
+
+    .banner-text h1 {
+        font-size: 8em;
+        letter-spacing: .01em;
+        margin: 0;
+    }
+
+    .blue-box {
+        height: 150px;
+        margin-top: 225px;
+    }
+
+    .request-main-container {
+        margin-top:125px;
+    }
+
+    .city-state-container, .zip-phone-container,
+    .bed-bath-container {
+        flex-direction: column;
+    }
+
+    .city, .zip, .bedroom {
+        margin-right: 0;
+    }
+}

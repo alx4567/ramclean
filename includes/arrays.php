@@ -20,6 +20,11 @@
                             slug    => "service-request.php",
                             title   => "REQUEST QUOTE",
                             name    => "quoteNav"
+                        ),
+                        array(
+                            slug    => "employment.php",
+                            title   => "EMPLOYMENT",
+                            name    => "employment"
                         )
                     );
 

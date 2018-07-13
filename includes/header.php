@@ -48,6 +48,17 @@
         gtag('config', 'UA-119956093-1');
     </script>
 
+    <!-- Google Pixel for remarketing -->
+    <!-- Global site tag (gtag.js) - AdWords: 961567445 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-961567445"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-961567445');
+    </script>
+
     <!-- Facebook Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
