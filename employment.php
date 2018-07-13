@@ -31,39 +31,39 @@
             </p>
             
             <!--Contact Form-->
-            <div id="aquaria_form_alert" class="alert" role="alert" style="font-size: 14px;">
+            <div id="aquaria_form_alert" class="alert" role="alert" style="font-size: 18px; font-family: Lato; text-align: center; margin-top: 25px; color: red;">
                 <strong></strong> <span></span>
             </div>
+
             <form role="form" class="aquaria_form" onsubmit="return false">
-                <section id="aquaria_module_1" class="aquaria_title aquaria_module" style="margin-bottom: 20px;">
-                </section>
+                <section id="aquaria_module_1" class="aquaria_title aquaria_module col-sm-12" style="margin-bottom: 20px;"></section>
                 
                 <!-- Name -->
-                <section id="aquaria_module_3" class="input-group aquaria_module" style="margin-bottom: 20px;">
-                    <input type="text" name="Name" data-validation="empty-value" data-err-msg="Please enter name" class="form-control" placeholder="Your Name" style="font-size: 14px; height: 40px; border-radius: 4px;">
+                <section id="aquaria_module_3" class="input-group aquaria_module col-sm-12" style="margin-bottom: 20px;">
+                    <input type="text" name="Name" data-validation="empty-value" data-err-msg="Please enter name" class="form-control" placeholder="Your Name" style="font-size: 14px; height: 40px; border-radius: 4px; font-family: Lato;">
                 </section>
                 
                 <div class="contact-container">
                     <!-- Phone -->
-                    <section id="aquaria_module_17" class="input-group aquaria_module col-sm-6">
-                        <input type="text" name="Phone_num" data-validation="empty-value" data-err-msg="Please Enter Phone Number" class="form-control" placeholder="Phone #">
+                    <section id="aquaria_module_17" class="input-group aquaria_module col-sm-6" style="margin-bottom: 20px;">
+                        <input type="text" name="Phone_num" data-validation="empty-value" data-err-msg="Please Enter Phone Number" class="form-control" placeholder="City" style="font-family: Lato; font-size: 14px; height: 40px; border-radius: 4px;">
                     </section>
                     
                     <!-- Email -->
                     <section id="aquaria_module_2" class="input-group aquaria_module col-sm-6" style="margin-bottom: 20px;">
-                        <input type="email" name="Email" data-validation="email" data-err-msg="Incorect email address" class="form-control" placeholder="Your Email" style="font-size: 14px; height: 40px; border-radius: 4px;">
+                        <input type="email" name="Email" data-validation="email" data-err-msg="Incorect email address" class="form-control" placeholder="Your Email" style="font-size: 14px; height: 40px; border-radius: 4px; font-family: Lato;">
                     </section>
                 </div>
                 
                 <!-- Address -->
-                <section id="aquaria_module_18" class="input-group aquaria_module col-sm-12" style="float: left !important;">
-                    <input type="text" name="Address" data-validation="empty-value" data-err-msg="Please Enter Address" class="form-control" placeholder="Address">
+                <section id="aquaria_module_18" class="input-group aquaria_module col-sm-12" style="float: left !important; margin-bottom: 20px;">
+                    <input type="text" name="Address" data-validation="empty-value" data-err-msg="Please Enter Address" class="form-control" placeholder="Address" style="font-family: Lato; font-size: 14px; height: 40px; border-radius: 4px;">
                 </section>
                 
                 <div class="contact-container">
                     <!-- City -->
                     <section id="aquaria_module_19" class="input-group aquaria_module col-sm-6">
-                        <input type="text" name="Random_19" data-validation="empty-value" data-err-msg="Please Enter City" class="form-control" placeholder="City">
+                        <input type="text" name="City" data-validation="empty-value" data-err-msg="Please Enter City" class="form-control" placeholder="City">
                     </section>
                     
                     <!-- State -->
