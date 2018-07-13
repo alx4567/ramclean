@@ -9,11 +9,14 @@
 <div class="request-container">
 
     <section class="request-banner">
+        <!--
         <div class="blue-box"></div>
         <div class="banner-text">
             <h1>YOUR NEW<br>CAREER</h1>
             <img src="img/ramclean-logo-banner.png" alt="RamClean logo" class="banner-title-logo" />
         </div>
+        -->
+        <img src="img/employment-banner.jpg" style="width: 100%;"/>
     </section> <!-- res-banner -->
 
 
