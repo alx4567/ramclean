@@ -23,7 +23,7 @@
             <div class="contact-text">
                 <h6>CHARLIE RAMSHAW</h6>
                 <p>President</p>
-                <a href="#">(217) 202-5235</a>
+                <a href="tel:+217-693-4963">(217) 693-4963</a>
                 <br>
                 <a href="#">charlie@ramclean.com</a>
             </div> <!-- contact-text -->
