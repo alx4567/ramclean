@@ -382,7 +382,7 @@
     }
 
     .banner-container {
-        margin-top: 0;
+        margin-top: 10px;
         padding: 50px 0;
     }
     
@@ -477,9 +477,6 @@
 
 @media screen and (max-width: 700px) {
 
-    .banner-container {
-        margin-top: 0;
-    }
 
     .premier-cleaners-container h2{
         font-size: 7em;

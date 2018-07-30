@@ -119,8 +119,8 @@ header{
 
 /* ---------------------------- Social Media ---------------------------- */
 .social-media-container {
-    width: 100%; height:50px;
-    padding: 15px 50px;
+    width: 100%;
+    padding: 10px 50px;
     font-size: 3em;
     display: flex;
     justify-content: space-between;
@@ -129,6 +129,7 @@ header{
 
 .socialWrapper {
     display: flex;
+    margin-top: 11px;
 }
 
 .socialWrapper a {
@@ -141,11 +142,16 @@ header{
     color: #00a0dd;
     font-weight: 700;
     font-size: 1.25em;
+    text-align: right;
 }
 
 @media screen and (max-width: 775px) {
     .socialWrapper {
         display: none;
+    }
+
+    .phoneNum {
+        text-align: center;
     }
 
     .social-media-container {
