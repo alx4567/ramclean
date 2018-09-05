@@ -167,15 +167,13 @@ header{
 @media screen and (max-width: 500px) {
     .phoneNum {
         text-align: center;
+        line-height: 1.25em;
+        padding-left: 0; padding-right:0;
     }
-
-    .phoneNum small {
-        display: block;
-        margin-bottom: 5px;
-    }
+    
 
     .social-media-container {
-        height: 75px;
+        padding-top: 5px;
     }
     
 

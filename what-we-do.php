@@ -118,10 +118,7 @@
                             <h2>RESPECTED PROFESSIONALS</h2>
                             <p>Our trained teams of professional cleaning specialists will tackle dirt, dust and grime and leave your
                                 home shining. Our products and extensive industry experience give us a leg up when it comes to leaving
-                                your house cleaner, and healthier, than ever before. Our trained teams of professional cleaning
-                                specialists will tackle dirt, dust and grime and leave your home shining. Our products and extensive
-                                industry experience give us a leg up when it comes to leaving your house cleaner, and healthier,
-                                than ever before.</p>
+                                your house cleaner, and healthier, than ever before.</p>
 
                 </div> <!-- trained-prof-text -->
 

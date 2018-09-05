@@ -72,20 +72,22 @@
 
     <!-- Facebook Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1407766832702862');
-        fbq('track', 'PageView');
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '301371217266399'); 
+    fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1407766832702862&ev=PageView&noscript=1"
-    /></noscript>
+    <noscript>
+    <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=301371217266399&ev=PageView
+    &noscript=1"/>
+    </noscript>
     <!-- End Facebook Pixel Code -->
 
 
@@ -111,8 +113,8 @@
                 <a target="_blank" href="https://www.google.com/search?ei=ohTEWp3GMI2vjwSk07yABA&q=ramclean+champaign+reviews&oq=ramclean+champaign+reviews&gs_l=psy-ab.3..35i39k1.4882.5912.0.6040.8.7.0.0.0.0.314.835.0j2j1j1.4.0....0...1.1.64.psy-ab..4.4.835....0.5TARfqFIJUI#lrd=0x880cd0b41d7b91f5:0x76ef42e24d189746,1,,,"><i class="fab fa-google"></i></a>
             </div>
             <div class="phoneNum">
-                <a  class="phoneNum" href="tel:+217-693-4963" style="font-size:.85em; text-align: right;"><small style="font-weight: 400; font-size: 0.9em;">Call for a free quote:</small> <strong>(217) 693-4963</strong></a><br>
-                <a  class="phoneNum" href="tel:+217-202-5235" style="font-size:.85em; text-align: right;"><small style="font-weight: 400; font-size: 0.9em;"> or text 24/7: </small>(217) 202-5235</a>
+                <a  class="phoneNum" href="tel:+217-693-4963" style="font-size:.85em;"><small style="font-weight: 400; font-size: 0.9em;">Call for a free quote:</small> <strong>(217) 693-4963</strong></a><br>
+                <a  class="phoneNum" href="tel:+217-202-5235" style="font-size:.85em;"><small style="font-weight: 400; font-size: 0.9em;"> or text 24/7: </small>(217) 202-5235</a>
             </div>
         </section> <!-- social-media-container"> -->
 

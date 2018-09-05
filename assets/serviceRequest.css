@@ -22,6 +22,7 @@
 
 h1 {
     color: #fff;
+    
     letter-spacing: .01em;
     line-height: 1.25em;
 }
@@ -43,7 +44,8 @@ h1 {
 .banner-text h1 {
     display: inline-block;
     vertical-align: middle;
-    margin-top: 25px;
+    margin-top: 45px;
+    font-size: 10.5em;
 }
 
 .banner-title-logo {
@@ -179,9 +181,9 @@ form p {
     }
     
     .banner-text h1 {
-        font-size: 10em;
+        font-size: 7em;
         letter-spacing: .01em;
-        margin-top: 15px;
+        margin-top: 35px;
     }
 
     .blue-box {
@@ -231,5 +233,13 @@ form p {
 
     .city, .zip, .bedroom {
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .banner-text h1 {
+        font-size: 7em;
+        letter-spacing: .01em;
+        margin-top: 10px;
     }
 }

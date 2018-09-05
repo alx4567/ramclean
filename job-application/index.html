@@ -8,10 +8,16 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <meta name="”viewport”" content="”width=device-width," initial-scale="1.0”">
-  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css"></head>
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  
+</head>
   <body>
     <!--Container-->
     <div class="container">
+
+        <!-- Language Btn -->
+        <button id="lang" class="btn lang-btn eng" type="button" onclick="toggleLanguage()">Ver en español</button>
+
     	
       <!--Contact Form-->
       <div id="aquaria_form_alert" class="alert" role="alert" style="font-size: 14px; font-family: Lato;">
@@ -24,41 +30,41 @@
           
           <!-- Name -->
           <section id="aquaria_module_3" class="input-group aquaria_module col-sm-12" style="margin-bottom: 20px;">
-              <input type="text" name="Name" data-validation="empty-value" data-err-msg="Please enter name" class="form-control" placeholder="Your Name" style="font-size: 14px; height: 40px; border-radius: 4px; font-family: Lato;">
+              <input id="form-name" type="text" name="Name" data-validation="empty-value" data-err-msg="Please enter name" class="form-control" placeholder="Name" style="font-size: 14px; height: 40px; border-radius: 4px; font-family: Lato;">
           </section>
           
           <div class="contact-container">
               <!-- Phone -->
               <section id="aquaria_module_17" class="input-group aquaria_module col-sm-6" style="margin-bottom: 20px;">
-                  <input type="text" name="Phone_num" data-validation="empty-value" data-err-msg="Please Enter Phone Number" class="form-control" placeholder="City" style="font-family: Lato; font-size: 14px; height: 40px; border-radius: 4px;">
+                  <input id="phone" type="text" name="Phone_num" data-validation="empty-value" data-err-msg="Please Enter Phone Number" class="form-control" placeholder="Phone Number" style="font-family: Lato; font-size: 14px; height: 40px; border-radius: 4px;">
               </section>
               
               <!-- Email -->
               <section id="aquaria_module_2" class="input-group aquaria_module col-sm-6" style="margin-bottom: 20px;">
-                  <input type="email" name="Email" data-validation="email" data-err-msg="Incorect email address" class="form-control" placeholder="Your Email" style="font-size: 14px; height: 40px; border-radius: 4px; font-family: Lato;">
+                  <input id="email" type="email" name="Email" data-validation="email" data-err-msg="Incorect email address" class="form-control" placeholder="Email" style="font-size: 14px; height: 40px; border-radius: 4px; font-family: Lato;">
               </section>
           </div>
           
           <!-- Address -->
           <section id="aquaria_module_18" class="input-group aquaria_module col-sm-12" style="float: left !important; margin-bottom: 20px;">
-              <input type="text" name="Address" data-validation="empty-value" data-err-msg="Please Enter Address" class="form-control" placeholder="Address" style="font-family: Lato; font-size: 14px; height: 40px; border-radius: 4px;">
+              <input id="address" type="text" name="Address" data-validation="empty-value" data-err-msg="Please Enter Address" class="form-control" placeholder="Address" style="font-family: Lato; font-size: 14px; height: 40px; border-radius: 4px;">
           </section>
           
           <div class="contact-container">
               <!-- City -->
               <section id="aquaria_module_19" class="input-group aquaria_module col-sm-6">
-                  <input type="text" name="City" data-validation="empty-value" data-err-msg="Please Enter City" class="form-control" placeholder="City">
+                  <input id="city" type="text" name="City" data-validation="empty-value" data-err-msg="Please Enter City" class="form-control" placeholder="City">
               </section>
               
               <!-- State -->
               <section id="aquaria_module_20" class="input-group aquaria_module col-sm-6">
-                  <input type="text" name="State" data-validation="empty-value" data-err-msg="Please Enter State" class="form-control" placeholder="State">
+                  <input id="state" type="text" name="State" data-validation="empty-value" data-err-msg="Please Enter State" class="form-control" placeholder="State">
               </section>
           </div>
           
           <!-- Zip -->
           <section id="aquaria_module_21" class="input-group aquaria_module col-sm-6">
-              <input type="text" name="Zip" data-validation="empty-value" data-err-msg="Please Enter Zip" class="form-control" placeholder="Zip">
+              <input id="zip" type="text" name="Zip" data-validation="empty-value" data-err-msg="Please Enter Zip" class="form-control" placeholder="Zip"> 
           </section>
           
           <!-- HR -->
@@ -70,7 +76,7 @@
           <section id="aquaria_module_11" class="input-group aquaria_module col-sm-12" style="margin-bottom: 20px;">
               <button class="btn btn-lg btn-block  btn-primary attach_bt" style="font-size: 18px; border-radius: 4px;">
                   <i class="fa fa-cloud-upload"></i>
-                  <span class="attach_h">Upload Resume</span>
+                  <span id="resume" class="attach_h">Upload Resume</span>
               </button>
               <input style="display: none; font-size: 14px; height: 40px; border-radius: 4px;" class="form-control attach" name="attach_name_1" type="file">
           </section>
@@ -107,7 +113,7 @@
 
           <!-- Submit -->
           <section id="aquaria_form_submit" class="input-group aquaria_module col-sm-5" style="float: right !important;">
-              <button class="btn btn-lg btn-primary btn-block" data-loading-text="Sending ..." autocomplete="off" type="submit" style="font-size: 18px; border-radius: 4px;">Submit Application</button>
+              <button id="emp-submit" class="btn btn-lg btn-primary btn-block" data-loading-text="Sending ..." autocomplete="off" type="submit" style="font-size: 18px; border-radius: 4px;">Submit Application</button>
           </section>
       </form>
       <!--End contact Form-->
@@ -141,5 +147,37 @@
     <script type="text/javascript" src="js/jquery.placeholder.js"></script>
     <script type="text/javascript" src="js/datetimepicker.min.js"></script>
     <script type="text/javascript" src="js/aquaria.form.js"></script>
+
+    <script>
+
+        function toggleLanguage() {
+            var classes = $('#lang').attr('class').split(' ');
+            language = classes[2];
+
+            if (language == "eng") {
+                $('#lang').removeClass("eng");
+                $('#lang').html("View in English");
+                $('#form-name').attr('placeholder','Nombre');
+                $('#phone').attr('placeholder','Número de teléfono');
+                $('#address').attr('placeholder','Direccióne');
+                $('#city').attr('placeholder','Ciudad');
+                $('#state').attr('placeholder','Estatal');
+                $('#zip').attr('placeholder','Código postal');
+                $('#resume').html('Cargar curriculum vitae');
+                $('#emp-submit').html('Presentar la Solicitud');
+            } else {
+                $('#lang').addClass("eng");
+                $('#lang').html("Ver en español");
+                $('#form-name').attr('placeholder','Name');
+                $('#phone').attr('placeholder','Phone Number');
+                $('#address').attr('placeholder','Address');
+                $('#city').attr('placeholder','City');
+                $('#state').attr('placeholder','State');
+                $('#zip').attr('placeholder','Zip');
+                $('#resume').html('Upload Resume');
+                $('#emp-submit').html('Submit Application');
+            }
+        };
+    </script>
   
 </body></html>

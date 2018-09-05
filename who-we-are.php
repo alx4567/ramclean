@@ -53,9 +53,15 @@
         </div> <!-- about-text-container -->
     </section> <!-- about-info-container -->
 
-    <section class="google-map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.1804021280623!2d-88.25315804815637!3d40.115982979300284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd0b41d7b91f5%3A0x76ef42e24d189746!2sRamClean%2C+LLC!5e0!3m2!1sen!2sus!4v1523320943755" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </section> <!-- google-map-container -->
+    <section class="address-container">
+        <h5>Address</h5>
+        <p>505 W. University Ave.</p>
+        <p>Champaign, IL 61820</p>
+    
+        <section class="google-map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.1804021280623!2d-88.25315804815637!3d40.115982979300284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd0b41d7b91f5%3A0x76ef42e24d189746!2sRamClean%2C+LLC!5e0!3m2!1sen!2sus!4v1523320943755" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section> <!-- google-map-container -->
+    </section>
 
 </section> <!-- about-container -->
 

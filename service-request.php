@@ -11,7 +11,7 @@
     <section class="request-banner">
         <div class="blue-box"></div>
         <div class="banner-text">
-            <h1>Employment</h1>
+            <h1>Request A Quote<br>Save 10%</h1>
             <img src="img/ramclean-logo-banner.png" alt="RamClean logo" class="banner-title-logo" />
         </div>
     </section> <!-- res-banner -->
